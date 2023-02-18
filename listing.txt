@@ -1,0 +1,49 @@
+﻿Example001
+// See https://aka.ms/new-console-template for more information
+Console.WriteLine("2 Hello, World!");
+
+
+Example002_HelloUser
+Console.Write("Введите ваше имя ");
+string username = Console.ReadLine();
+Console.Write("Привет, ");
+Console.Write(username);
+
+
+Example003_Sum
+int numberA = new Random().Next(1, 10);
+Console.WriteLine(numberA);
+int numberB = new Random().Next(1, 10);
+Console.WriteLine(numberB);
+int result = numberA + numberB;
+Console.WriteLine(result);
+
+
+Example004_Div
+// int numberA = 10;
+// int numberB = 5;
+
+double numberA = 12;
+double numberB = 5;
+// int result = numberA + numberB;
+Console.WriteLine(numberA / numberB);
+
+
+// Example005
+Console.Write("Введите имя пользователя ");
+string username = Console.ReadLine();
+
+if (username == "Маша");
+{
+   Console.WriteLine("Ура, это же МАША!");
+}
+
+else
+{
+    Console.Write("Привет, ");
+    Console.WriteLine(username);
+}
+
+
+
+
